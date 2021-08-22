@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-weight:bolder;
+    color: #bd10e0;
+    margin: 0;
+    display:inline;
+    font-family: Georgia, 'Times New Roman', Times, serif, 40px;
+    background: lightgray;
+    padding: 40px 35px;
+    text-align: center;
+}
+/* body of page*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lavender;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    color:  #bd10e0;
+    background: lightgray;
+    width: 100%;
+    padding: 10px 35px;
+    font-weight:bolder;
+    text-align: center;
+  }
+  
+.class {
+    border: 3px solid darkorchid;
+    background-color: lavender;
+}
+image {
+    border-width: thick;
+    border-color:darkorchid;
+}
