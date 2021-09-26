@@ -2,47 +2,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color:darkorchid;
+    color:var(--accent-color);
 }
 
+:root {
+    --primary: #CBEAF9;
+    --accent-color: #000000;
+    --accent2: rgb(31, 141, 168);
+    }
+
 header {
+    background-image: url("https://www.outdoorproject.com/sites/default/files/styles/hero_image_desktop/public/features/_mg_2585_0.jpg?itok=Lri6jZeG");
+    opacity: 80%;
+    height: 400px;
+    background-size: cover;
     font-weight:bolder;
-    color: #bd10e0;
-    margin: 0;
+    color: var(--accent-color);    margin: 0;
     display:inline;
-    background: #9bebd9;
-    padding: 40px 35px;
+    /* padding: 40px 35px; */
     text-align: center;
-    border: 4px solid #660778;
+    border: 4px solid var(--accent2);    
     border-radius:16px;
 }
-header h1 {
-    font-size: 46px;
+
+#disney {
+    /* border: 4px 
+    solid var(--accent2);     */
+    /* border: 0pt;
+    border-radius:16px; */
 }
+
+
+
+header h1 {
+    font-size: 52px;
+    color: var(--accent-color);
+    padding: 2%;
+}
+
 h2 {
     font-size: 32px;
 }
-header nav {
-    color: darkorchid;
-    font: 24px;
-    
-}
+
+/* a {
+    color: var(--accent-color);
+} */
 
 header nav ul li {
     display: inline;
     justify-content:space-around;
-  }
+}
+  
   header nav ul li a {
     margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
+    font-weight: bolder;
+    font-size: 28px;
+    color: var(--accent-color);
   }
 
 /* body of page*/
 body {
-    margin:initial
+    margin:initial;
     padding: 0;
-    background-color: lavender;
+    background-color: var(--primary);;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
@@ -54,23 +76,30 @@ main {
     margin: 50px auto;
     /* add padding so html inside has space */
     padding: 20px;
-    background-color: lavender;
-    border: 4px solid #660778;
+    background-color: var(--primary);;
+    border: 4px solid var(--accent2);    
     border-radius:16px;
   }
-.p {
-    margin: 15%;
+
+img {
+    width: auto;
+    height: 350px;
+    object-fit: contain;
 }
+
+/* .p {
+    margin: 15%;
+    padding: 20%;
+} */
 .class {
     border: 3px solid darkorchid;
-    background-color: lavender;
+    background-color: var(--primary);;
 }
 
 .flex-item {
     width: 100%;
     border-radius:16px;
-    border: 4px solid #660778;
-    /* put space between each one vertically */
+    border: 4px solid var(--accent2);    /* put space between each one vertically */
     margin-bottom: 15px;
 }
 
@@ -86,16 +115,32 @@ main {
     
   }
   footer {
-    color:  #bd10e0;
-    background: #9bebd9;
+    color:  var(--accent-color);    
+    /* background: #9bebd9; */
     width: 100%;
     padding: 10px 35px;
     font-weight:bolder;
     text-align: center;
-    border: 4px solid #660778;
+    border: 4px 
+    solid var(--accent2);    
     border-radius:16px;
   }
   /* MEDIA QUERIES---still working on .....
  
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
   }
   
