@@ -7,7 +7,7 @@
  * HTML
  * CSS
 
-https://mirandat77.github.io/first-portfolio/
+[Deployed Application](https://mirandat77.github.io/first-portfolio/)
 
 ![portfolio](https://user-images.githubusercontent.com/88161424/134999870-686436f1-3233-44bb-8b75-0fcea53d3ba5.jpg)
 
