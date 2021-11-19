@@ -1,6 +1,7 @@
 # Miranda's Portfolio: Week 2-Advanced CSS
 
-## My 2nd assignment during coding bootcamp was to create a personal portfolio. As I create more projects and assignments, they will be added. Keep watch for steady stream of progress!
+## Description:
+My 2nd assignment during coding bootcamp was to create a personal portfolio. As I create more projects and assignments, they will be added. Keep watch for steady stream of progress!
 
 ## Styles Used (Currently):
 
